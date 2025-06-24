@@ -1,0 +1,281 @@
+/* General Page Styling */
+body {
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    font-family: 'Arial', sans-serif;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+}
+
+/* Center "My Blog" Heading */
+h1 {
+    font-size: 42px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #FFD700;
+    text-shadow: 2px 2px 15px rgba(250, 248, 248, 0.943);
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+/* Center "New Post" Button */
+.new-post-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+/* General Button Styling */
+.btn {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.2);
+    text-align: center;
+}
+
+/* "New Post" Button */
+.btn-primary {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: white;
+}
+
+.btn-primary:hover {
+    transform: scale(1.1);
+}
+
+/* Uniform Style for Edit & Delete Buttons */
+.btn-action {
+    width: 100px; /* Ensure both buttons are the same width */
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Edit Button */
+.btn-warning {
+    background-color: #ffcc00;
+    color: black;
+}
+
+.btn-warning:hover {
+    background-color: #ffb300;
+    transform: scale(1.1);
+}
+
+/* Delete Button */
+.btn-danger {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.btn-danger:hover {
+    background-color: #c0392b;
+    transform: scale(1.1);
+}
+
+/* Blog Post Cards */
+.card {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(8px);
+    border-radius: 12px;
+    padding: 20px;
+    margin: 15px auto;
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+/* Blog Post Title */
+.card-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+/* Blog Post Content */
+.card-text {
+    font-size: 16px;
+    color: #f1f1f1;
+}
+
+/* Button Container for Edit & Delete */
+.btn-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+/* Input & Textarea Styles */
+.post-form .form-control {
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    margin-bottom: 15px;
+    background-color: #f9f9f9;
+}
+
+/* Placeholder Styling */
+.post-form .form-control::placeholder {
+    color: #555;
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+/* Focus Effect */
+.post-form .form-control:focus {
+    border-color: #ff7e5f;
+    box-shadow: 0 0 5px rgba(255, 126, 95, 0.5);
+    outline: none;
+}
+/* Centering the Form */
+.container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling the Heading */
+.new-post-heading {
+    text-align: center;
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Input & Textarea Styling */
+.post-form .form-control {
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    margin-bottom: 15px;
+    background-color: #f9f9f9;
+}
+
+/* Placeholder Styling */
+.post-form .form-control::placeholder {
+    color: #555;
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+/* Focus Effect */
+.post-form .form-control:focus {
+    border-color: #ff7e5f;
+    box-shadow: 0 0 5px rgba(255, 126, 95, 0.5);
+    outline: none;
+}
+
+/* Buttons */
+.form-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.form-buttons .btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+/* Centering the Form */
+.container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling the Heading */
+.edit-post-heading {
+    text-align: center;
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Input & Textarea Styling */
+.edit-form .form-control {
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    margin-bottom: 15px;
+    background-color: #f9f9f9;
+}
+
+/* Placeholder Styling */
+.edit-form .form-control::placeholder {
+    color: #555;
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+/* Focus Effect */
+.edit-form .form-control:focus {
+    border-color: #28a745;
+    box-shadow: 0 0 5px rgba(40, 167, 69, 0.5);
+    outline: none;
+}
+
+/* Buttons */
+.form-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.form-buttons .btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+/* Ensure no extra space below the New Post button */
+/* Ensure no extra space below the New Post button */
+.new-post-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0; /* Remove extra margin */
+}
+
+/* Adjust container spacing */
+.container {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+/* Remove any extra padding/margin causing white space */
+.row.mt-3 {
+    margin-top: 5px; /* Adjust space between the button and posts */
+}
+
+/* Ensure cards don't have unnecessary margin */
+.card {
+    margin-bottom: 15px;
+}
